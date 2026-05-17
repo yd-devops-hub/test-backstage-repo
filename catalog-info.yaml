@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "test-backstage-repo"
+  description: "yd-devops-hub/test-backstage-repo"
+spec:
+  type: "service"
+  owner: "group:default/guests"
+  lifecycle: "experimental"
