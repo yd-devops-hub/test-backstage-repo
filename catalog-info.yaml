@@ -3,6 +3,8 @@ kind: Component
 metadata:
   name: "test-backstage-repo"
   description: "yd-devops-hub/test-backstage-repo"
+  annotations:
+    github.com/project-slug: yd-devops-hub/test-backstage-repo
 spec:
   type: "service"
   owner: "group:default/guests"
